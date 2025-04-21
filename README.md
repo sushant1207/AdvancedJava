@@ -14,7 +14,7 @@
 
 
 
-#Hrithik Rohita – 22085533
+# Hrithik Rohita – 22085533
 - Developed `LoginController.java`, `RegisterController.java`, and session management
 - Helped design and style `login.jsp`, `register.jsp`, and CSS for animations
 - Built `UpdateProfileController.java` for user profile management
