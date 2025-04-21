@@ -1,0 +1,94 @@
+.shop {
+    padding: 40px;
+    text-align: center;
+}
+
+.shop h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.product-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px #eee;
+}
+
+.product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+}
+
+.product-card p {
+    margin: 0 0 10px;
+    color: #555;
+}
+
+.product-card input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.product-card button {
+    background: #1f3a93;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background: #162d6a;
+}
+.navbar {
+    background-color: #111;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 14px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background: #333;
+    border-radius: 5px;
+}
